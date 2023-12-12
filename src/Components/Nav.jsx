@@ -4,10 +4,10 @@ import { NavLink } from 'react-router-dom';
 
 const Nav = () => {
   const links =  <>
-  <NavLink to={'/'} className={({ isActive }) => (isActive ? 'text-blue-500' : '')}><li className='px-5'>Home</li></NavLink>
-  <NavLink to={'/about'} className={({ isActive }) => (isActive ? 'text-blue-500' : '')} ><li className='px-5'>About</li></NavLink>
-  <NavLink to={'/project'} className={({ isActive }) => (isActive ? 'text-blue-500' : '')}><li className='px-5'>Project</li></NavLink>
-  <NavLink to={'/contact'} className={({ isActive }) => (isActive ? 'text-blue-500' : '')}><li className='px-5'>Contact</li></NavLink>
+  <NavLink to={'/'} className={({ isActive }) => (isActive ? 'text-blue-500 underline' : '')}><li className='px-5 font-semibold'>Home</li></NavLink>
+  <NavLink to={'/about'} className={({ isActive }) => (isActive ? 'text-blue-500 underline' : '')} ><li className='px-5 font-semibold'>About</li></NavLink>
+  <NavLink to={'/project'} className={({ isActive }) => (isActive ? 'text-blue-500 underline' : '')}><li className='px-5 font-semibold'>Project</li></NavLink>
+  <NavLink to={'/contact'} className={({ isActive }) => (isActive ? 'text-blue-500 underline' : '')}><li className='px-5 font-semibold'>Contact</li></NavLink>
 </>
   return (
     <div>
