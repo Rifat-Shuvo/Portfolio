@@ -14,7 +14,7 @@ const Home = () => {
                         <p className="mb-5">This is Rifat H Shuvo, a MERN stack Web developer,   passionate about building innovative and user-friendly web software</p>
                         <Link to='/contact'><button className="btn btn-primary">Contact</button></Link>
                         {/* <button className="btn btn-primary ml-5">Resume</button> */}
-                        <a href="/samplecv.pdf" download>
+                        <a href="https://raw.githubusercontent.com/Rifat-Shuvo/Portfolio/9ca09c2998abd5f64303018c5d73ed46e70e1535/public/samplecv.pdf" download>
                         <button className="btn btn-primary ml-5">Resume</button>
                         </a>
                     </div>
