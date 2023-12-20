@@ -18,8 +18,11 @@ const About = () => {
                         <img src="/myphoto.jpg" />
                     </div>
                 </div></div>
-                <div className='flex justify-center items-center'><p className='text-lg text-blue-600 font-bold text-justify p-5'>
-                    As a MERN stack web developer, I was build website and web app with awesome functionalities by MongoDB, Express JS, React and Node JS. I was work with more than 100+ projects with implemented verities of functionalities by this stack. I spend more than a thousand of hour coding in this stack which helps me more professional and easy way to write codes now.</p></div>
+                <div className='flex justify-center items-center'><div>
+                <p className='text-lg text-blue-600 font-bold text-justify p-5'>
+                    As a MERN stack web developer, I was build website and web app with awesome functionalities by MongoDB, Express JS, React and Node JS. I was work with more than 100+ projects with implemented verities of functionalities by this stack. I spend more than a thousand of hour coding in this stack which helps me more professional and easy way to write codes now.</p>
+                    <a className='underline p-5 font-semibold text-rose-500' href='https://github.com/Rifat-Shuvo'>Click to see my Github profile</a>
+                    </div></div>
             </section>
 
             <section className='text-center px-9 mb-16'>
