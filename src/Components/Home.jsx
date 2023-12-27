@@ -12,10 +12,10 @@ const Home = () => {
                     <div className="max-w-md">
                         <h1 className="mb-5 text-5xl font-bold">Hey, Welcome to my personal website</h1>
                         <p className="mb-5">This is Rifat H Shuvo, a MERN stack Web developer,   passionate about building innovative and user-friendly web software</p>
-                        <Link to='/contact'><button className="btn btn-primary">Contact</button></Link>
+                        <Link to='/contact'><button className="btn btn-primary rounded-full">Contact</button></Link>
                         {/* <button className="btn btn-primary ml-5">Resume</button> */}
-                        <a href="https://raw.githubusercontent.com/Rifat-Shuvo/Portfolio/9ca09c2998abd5f64303018c5d73ed46e70e1535/public/samplecv.pdf" download>
-                        <button className="btn btn-primary ml-5">Resume</button>
+                        <a href="https://raw.githubusercontent.com/Rifat-Shuvo/Portfolio/94f06e12d0f5aef0cd6f22917592d2fdbe79182b/public/Resume%20of%20Rifat%20Hossain.pdf" download>
+                        <button className="btn btn-primary ml-5 rounded-full">Resume</button>
                         </a>
                     </div>
                 </div>
@@ -25,7 +25,7 @@ const Home = () => {
 
             <section className='text-center mb-16 mx-8'>
                 <h1 className='text-5xl font-bold my-10 text-blue-700'>What I Do ?</h1>
-                <div className='grid gap-5 grid-cols-1 md:grid-cols-3'>
+                <div className='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                     <div className="card bg-primary text-primary-content">
                         <div className="card-body">
 
